@@ -67,7 +67,7 @@ message(STATUS "Configuring ${PROJECT_NAME} ${PROJECT_VERSION}")
 #endif()
 #include(FindPackageHandleStandardArgs)
 #find_package_handle_standard_args(OGG DEFAULT_MSG OGG_INCLUDE_DIRS OGG_LIBRARIES)
-include_directories(${ZLIB_INCLUDE_DIR})
+include_directories(${OGG_ROOT}/include)
 
 add_subdirectory(lib)
 
