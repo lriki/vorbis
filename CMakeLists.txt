@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.7)
 project(vorbis)
 
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY BOTH)
+
 # Required modules
 include(GNUInstallDirs)
 include(CheckIncludeFiles)
