@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8.7)
 project(vorbis)
 
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY BOTH)
+set(CMAKE_FIND_DEBUG_MODE 1)
 
 # Required modules
 include(GNUInstallDirs)
